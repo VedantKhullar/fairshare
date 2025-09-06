@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Custom global styles using @apply */
+body {
+  @apply bg-gray-50 text-gray-800 antialiased;
+}
+
+h1 {
+  @apply text-3xl font-bold tracking-tight text-gray-900;
+}
+
+h2 {
+  @apply text-2xl font-semibold text-gray-800;
+}
+
+h3 {
+  @apply text-xl font-medium text-gray-700;
+}
+
+.container {
+  @apply max-w-5xl mx-auto px-4;
+}
